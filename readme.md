@@ -44,7 +44,7 @@ The stream to check.
 
 #### Why are you not using [`ci-info`](https://github.com/watson/ci-info) for the CI check?
 
-It's silly to have to detect individual CIs. They should identify themselves with the `CI` environment variable, and most do just that. A manually maintained list of detections will easily get out of date. And if a package using `is-interactive` doesn't update to the latest version all the time, they will not support certain CIs. It also creates unpredictability as you might assume a CI is not supported and then suddenly it gets supported and you didn't account for that. In addition, some of the manual detections are loose and might cause false-positives which could create hard-to-debug bugs.
+It's silly to have to detect individual CIs. They should identify themselves with the `CI` environment variable, and most do just that. A manually maintained list of detections will easily get out of date. And if a package using `ci-info` doesn't update to the latest version all the time, they will not support certain CIs. It also creates unpredictability as you might assume a CI is not supported and then suddenly it gets supported and you didn't account for that. In addition, some of the manual detections are loose and might cause false-positives which could create hard-to-debug bugs.
 
 #### Why does this even exist? It's just a few lines.
 

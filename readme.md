@@ -1,4 +1,4 @@
-# is-interactive [![Build Status](https://travis-ci.com/sindresorhus/is-interactive.svg?branch=master)](https://travis-ci.com/sindresorhus/is-interactive)
+# is-interactive [![Build Status](https://travis-ci.com/sindresorhus/is-interactive.svg?branch=master)](https://travis-ci.com/github/sindresorhus/is-interactive)
 
 > Check if stdout or stderr is [interactive](https://unix.stackexchange.com/a/43389/7678)
 
@@ -6,13 +6,11 @@ It checks that the stream is [TTY](https://jameshfisher.com/2017/12/09/what-is-a
 
 This can be useful to decide whether to present interactive UI or animations in the terminal.
 
-
 ## Install
 
 ```
 $ npm install is-interactive
 ```
-
 
 ## Usage
 
@@ -22,7 +20,6 @@ const isInteractive = require('is-interactive');
 isInteractive();
 //=> true
 ```
-
 
 ## API
 
@@ -38,7 +35,6 @@ Type: [`stream.Writable`](https://nodejs.org/api/stream.html#stream_class_stream
 Default: [`process.stdout`](https://nodejs.org/api/process.html#process_process_stdout)
 
 The stream to check.
-
 
 ## FAQ
 

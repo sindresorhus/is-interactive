@@ -1,4 +1,4 @@
-# is-interactive [![Build Status](https://travis-ci.com/sindresorhus/is-interactive.svg?branch=master)](https://travis-ci.com/github/sindresorhus/is-interactive)
+# is-interactive
 
 > Check if stdout or stderr is [interactive](https://unix.stackexchange.com/a/43389/7678)
 

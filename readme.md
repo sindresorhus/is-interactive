@@ -45,3 +45,8 @@ It's silly to have to detect individual CIs. They should identify themselves wit
 #### Why does this even exist? It's just a few lines.
 
 It's not about the number of lines, but rather discoverability and documentation. A lot of people wouldn't even know they need this. Feel free to copy-paste the code if you don't want the dependency. You might also want to read [this blog post](https://blog.sindresorhus.com/small-focused-modules-9238d977a92a).
+
+## Related
+
+- [is-unicode-supported](https://github.com/sindresorhus/is-unicode-supported) - Detect whether the terminal supports Unicode
+- [supports-color](https://github.com/chalk/supports-color) - Detect whether a terminal supports color

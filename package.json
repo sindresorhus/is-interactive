@@ -1,6 +1,6 @@
 {
 	"name": "is-interactive",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Check if stdout or stderr is interactive",
 	"license": "MIT",
 	"repository": "sindresorhus/is-interactive",

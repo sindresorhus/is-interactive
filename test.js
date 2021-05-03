@@ -1,6 +1,6 @@
-import {PassThrough as PassThroughStream} from 'stream';
+import {PassThrough as PassThroughStream} from 'node:stream';
 import test from 'ava';
-import isInteractive from '.';
+import isInteractive from './index.js';
 
 test('tty', t => {
 	const ci = process.env.CI;

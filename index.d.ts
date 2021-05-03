@@ -1,14 +1,10 @@
-/// <reference types="node"/>
+export interface Options {
+	/**
+	The stream to check.
 
-declare namespace isInteractive {
-	interface Options {
-		/**
-		The stream to check.
-
-		@default process.stdout
-		*/
-		readonly stream?: NodeJS.WritableStream;
-	}
+	@default process.stdout
+	*/
+	readonly stream?: NodeJS.WritableStream;
 }
 
 /**
@@ -20,12 +16,10 @@ This can be useful to decide whether to present interactive UI or animations in 
 
 @example
 ```
-import isInteractive = require('is-interactive');
+import isInteractive from 'is-interactive';
 
 isInteractive();
 //=> true
 ```
 */
-declare function isInteractive(options?: isInteractive.Options): boolean;
-
-export = isInteractive;
+export default function isInteractive(options?: Options): boolean;

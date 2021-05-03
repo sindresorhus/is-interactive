@@ -15,7 +15,7 @@ $ npm install is-interactive
 ## Usage
 
 ```js
-const isInteractive = require('is-interactive');
+import isInteractive from 'is-interactive';
 
 isInteractive();
 //=> true
@@ -31,7 +31,7 @@ Type: `object`
 
 ##### stream
 
-Type: [`stream.Writable`](https://nodejs.org/api/stream.html#stream_class_stream_writable)<br>
+Type: [`stream.Writable`](https://nodejs.org/api/stream.html#stream_class_stream_writable)\
 Default: [`process.stdout`](https://nodejs.org/api/process.html#process_process_stdout)
 
 The stream to check.
